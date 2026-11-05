@@ -81,7 +81,7 @@ table.participants th button{background:transparent;border:none;color:inherit;pa
     border-bottom:2px solid var(--accent);padding:.4rem 0 0;margin:1rem 0 0;scrollbar-width:thin;
     font-family:"Helvetica Neue",Arial,sans-serif}
   .tabbar button{flex:0 0 auto;font:inherit;font-size:.84rem;color:var(--ink2);background:transparent;border:1px solid transparent;
-    border-bottom:none;border-radius:8px 8px 0 0;padding:.5rem .6rem;cursor:pointer;white-space:nowrap}
+    border-bottom:none;border-radius:8px 8px 0 0;padding:.5rem .45rem;cursor:pointer;white-space:nowrap}
   .tabbar button:hover{color:var(--blue);background:var(--soft)}
   .tabbar button[aria-selected="true"]{color:#fff;background:var(--blue);border-color:var(--blue);font-weight:600}
   .tabbar button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -197,6 +197,7 @@ table.participants th button{background:transparent;border:none;color:inherit;pa
 <li><a href="#sec-abstracts">Abstracts</a></li>
 <li><a href="#sec-participants">List of Participants</a></li>
 <li><a href="#sec-stats">Summary Statistics</a></li>
+<li><a href="#sec-conduct">Code of Conduct</a></li>
 <li><a href="#sec-sponsors">Sponsors</a></li>
 </ul>
 </nav>
@@ -2327,6 +2328,13 @@ Giacomo <strong>Rondina</strong> (UC San Diego); with Xintong Li<br />
 </figure>
 <p><strong>Presenters by country of institution:</strong> Australia (31), Japan (23), South Korea (6), United Arab Emirates (5), Singapore (5), Hong Kong (3), Malaysia (2), New Zealand (2), United States of America (2), China (2), Ireland (1), Denmark (1), Macao (1), Belgium (1), Taiwan (1); no institutional affiliation (1, not shown on the map).</p>
 </section>
+<section id="sec-conduct" class="level1">
+<h1>Code of Conduct</h1>
+<p>The Australasian Macroeconomics Society (AMS) aims to provide a safe and productive environment that fosters open, rigorous, and respectful exchange of ideas. We are committed to fostering an environment that is inclusive, respectful, and welcoming to participants from diverse backgrounds, disciplines, and perspectives. Our events are intended to provide equal opportunities and treatment for all participants and are free of harassment and discrimination. Acceptance of papers submitted to all AMS-related events are based purely on academic merit as decided by a scientific committee.</p>
+<p><strong>Discrimination.</strong> Discrimination is the prejudicial treatment of individuals based on race, ethnicity, gender, sexual orientation, age, disability status, or any other attribute. Harassment includes speech or any behaviour, such as remarks, both spoken and in other media, bullying, physical contact, stalking, sexual advances, and unwelcome attention, that creates an intimidating, hostile, offensive, or threatening environment. Behaviour that is acceptable to one person may not be acceptable to another, and harassment of any form, whether intended or otherwise, is unacceptable.</p>
+<p><strong>Conduct.</strong> All participants are expected to conduct themselves professionally and courteously throughout the workshop, including during sessions and social events. Free and open discussion and debate are essential elements of academic interaction, but paper presenters, discussants, and other conference participants are expected to treat others with respect and consideration, to follow venue rules, and to alert meeting organisers to potentially dangerous situations or problems.</p>
+<p><strong>Scientific integrity and professional ethics.</strong> All participants are also expected to abide by standards of scientific integrity and professional ethics.</p>
+</section>
 <section id="sec-sponsors" class="level1">
 <h1>Sponsors</h1>
 <p>WAMS2026 gratefully acknowledges the support of its sponsors.</p>
@@ -2349,7 +2357,7 @@ Giacomo <strong>Rondina</strong> (UC San Diego); with Xintong Li<br />
 
   var SHORT = { 'sec-venue': 'Venues', 'sec-glance': 'At a Glance', 'sec-keynotes': 'Keynotes',
                 'sec-abstracts': 'Abstracts', 'sec-participants': 'Participants', 'sec-stats': 'Statistics',
-                'sec-sponsors': 'Sponsors' };
+                'sec-conduct': 'Conduct', 'sec-sponsors': 'Sponsors' };
   function shortLabel(t, id) {
     if (SHORT[id]) return SHORT[id];
     var m = t.match(/^(\w+day), (\d+) (\w+) \d{4}$/);
@@ -2534,6 +2542,6 @@ Giacomo <strong>Rondina</strong> (UC San Diego); with Xintong Li<br />
   sortBy('last');
 })();
 </script>
-<footer class="version" role="contentinfo">WAMS2026 Program · Version 6.b — 5 November 2026, 14:36 (UTC+8)</footer>
+<footer class="version" role="contentinfo">WAMS2026 Program · Version 6.b — 5 November 2026, 15:07 (UTC+8)</footer>
 </body>
 </html>
